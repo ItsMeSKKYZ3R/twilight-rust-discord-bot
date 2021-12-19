@@ -1,0 +1,18 @@
+[package]
+name = "discord-commands"
+version = "0.1.0"
+edition = "2021"
+description = "Test"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+twilight = "0.8.0"
+twilight-gateway = "0.8.0"
+twilight-http = "0.8.1"
+twilight-model = "0.8.1"
+twilight-cache-inmemory = "0.8.1"
+twilight-embed-builder = "0.8.0"
+tokio = { version = "1.15.0", features = ["macros", "io-util", "rt-multi-thread"] }
+futures = "0.3.19"
+discord-utils = { path = "../utils" }
