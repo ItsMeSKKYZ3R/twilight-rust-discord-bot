@@ -11,7 +11,7 @@ use discord_commands::{
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn Error + Send + Sync>> {
-    let token = "Nzg1NTYzNDQwMjA1NzkxMjMy.X85q9w.qGiPxcfmhScdwli_fNrd3V_AhAU";
+    let token = "token";
 
     // This is the default scheme. It will automatically create as many
     // shards as is suggested by Discord.
